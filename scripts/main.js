@@ -1,12 +1,12 @@
 console.log('hello world');
 
 require.config({
-	baseUrl: "",
+	baseUrl: 'scripts',
 	paths: {
-		"jquery": "bower_components/jquery/dist/jquery"
+		'jquery': '../bower_components/jquery/dist/jquery'
 	}
 });
 
-require(['jquery'], function($) {
-	$('#output').html('This is output.');
+require(['jquery', 'message', 'another-module'], function($, message, another) {
+	$('#output').html(message + " " + another);
 });
