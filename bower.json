@@ -1,0 +1,20 @@
+{
+  "name": "RequireJS",
+  "version": "1.0",
+  "homepage": "https://github.com/pfryga/requirejs",
+  "authors": [
+    "Piotr Fryga <piotr.fryga@allegro.pl>"
+  ],
+  "description": "require js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11"
+  }
+}
