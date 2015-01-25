@@ -1,0 +1,28 @@
+{
+  "name": "requirejs",
+  "version": "1.0.0",
+  "description": "requirejs =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfryga/requirejs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfryga/requirejs/issues"
+  },
+  "homepage": "https://github.com/pfryga/requirejs",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "grunt-cli": "^0.1.13"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-requirejs": "^0.4.4"
+  }
+}
